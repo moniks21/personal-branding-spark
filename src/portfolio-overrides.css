@@ -1,0 +1,196 @@
+/* ===== Portfolio overrides applied on top of portfolio.css ===== */
+/* Reset tailwind preflight side effects that would break the portfolio look */
+.portfolio-root button { background: none; }
+.portfolio-root img { display: block; max-width: 100%; }
+
+/* ---- TBS peach palette ---- */
+:root {
+  --tbs-peach: #C25842;
+  --tbs-peach-soft: #E48A6E;
+  --tbs-peach-tint: #F4D9CC;
+  --tbs-peach-deep: #A8462F;
+}
+
+/* (5) Header in TBS peach */
+.nav {
+  background: var(--tbs-peach) !important;
+  backdrop-filter: none !important;
+  border-bottom: 1px solid var(--tbs-peach-deep) !important;
+  box-shadow: 0 6px 20px rgba(168, 70, 47, 0.15);
+}
+.nav.scrolled { border-bottom-color: var(--tbs-peach-deep) !important; }
+
+.nav .brand { color: #fff !important; }
+.nav .brand-text strong { color: #fff !important; }
+.nav .brand-text span { color: rgba(255, 250, 245, 0.85) !important; }
+.nav .nav-links a { color: rgba(255, 250, 245, 0.92) !important; }
+.nav .nav-links a:hover { color: #fff !important; }
+.nav .nav-links a::after { background: #fff !important; }
+.nav .menu-toggle { color: #fff !important; }
+
+/* Primary "Book consultation" button stays readable on peach */
+.nav .btn.btn-primary {
+  background: #fff !important;
+  color: var(--tbs-peach-deep) !important;
+  border: 1px solid #fff !important;
+}
+.nav .btn.btn-primary:hover {
+  background: var(--tbs-peach-tint) !important;
+  color: var(--tbs-peach-deep) !important;
+}
+
+/* New circular logo mark */
+.brand-mark-img {
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 50% !important;
+  background: #fff;
+  padding: 4px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+/* (2) Bigger name + specialty in header */
+.nav .brand-text strong {
+  font-size: 1.55rem !important;
+  letter-spacing: 0.005em;
+  line-height: 1.1;
+}
+.nav .brand-text span {
+  font-size: 0.82rem !important;
+  letter-spacing: 0.18em !important;
+  margin-top: 4px;
+}
+@media (max-width: 720px) {
+  .nav .brand-text strong { font-size: 1.15rem !important; }
+  .nav .brand-text span { font-size: 0.68rem !important; }
+  .brand-mark-img { width: 44px !important; height: 44px !important; }
+}
+
+/* (6) FAQ as tiles */
+.faq-list {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+.faq-item {
+  background: var(--paper, #fff);
+  border: 1px solid var(--line, #ead9c3);
+  border-radius: 18px;
+  padding: 4px 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  display: flex;
+  flex-direction: column;
+}
+.faq-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--tbs-peach-soft);
+  box-shadow: 0 12px 32px rgba(194,88,66,0.12);
+}
+.faq-item.open { border-color: var(--tbs-peach); }
+.faq-q {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 20px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: var(--ink, #1a1410);
+}
+.faq-q .plus {
+  width: 28px; height: 28px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: var(--tbs-peach-tint);
+  color: var(--tbs-peach-deep);
+  font-size: 1.1rem;
+  transition: transform .25s ease, background .25s ease;
+  flex-shrink: 0;
+}
+.faq-item.open .faq-q .plus {
+  transform: rotate(45deg);
+  background: var(--tbs-peach);
+  color: #fff;
+}
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .35s ease, padding .35s ease;
+  padding: 0 20px;
+}
+.faq-item.open .faq-a {
+  max-height: 600px;
+  padding: 0 20px 20px;
+}
+.faq-a p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
+
+/* (7) Footer columns as small tile grids */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 36px;
+}
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+.footer-col h5 {
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--tbs-peach-soft);
+  margin: 0 0 14px;
+}
+.footer-tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.footer-tiles a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  color: rgba(247, 244, 236, 0.85) !important;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  text-decoration: none;
+  transition: all .2s ease;
+  word-break: break-word;
+}
+.footer-tiles a:hover {
+  background: var(--tbs-peach);
+  border-color: var(--tbs-peach);
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+/* (8) Crafted with love — pin to right corner, italic small */
+.footer-bottom {
+  justify-content: space-between !important;
+}
+.footer-bottom .crafted {
+  margin-left: auto;
+  font-style: italic;
+  font-size: 0.78rem;
+  color: rgba(250, 246, 237, 0.5);
+  text-align: right;
+}
+.footer-bottom .crafted .heart { color: var(--tbs-peach-soft); }
+@media (max-width: 560px) {
+  .footer-bottom { flex-direction: column; align-items: flex-end !important; text-align: right; }
+  .footer-bottom .crafted { text-align: right; }
+}
