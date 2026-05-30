@@ -10,7 +10,7 @@ export const DOCTOR = {
     "Restoring smiles, rebuilding confidence. Advanced orthognathic, TMJ, and cleft surgical care — delivered with precision and compassion.",
   about: `"It all starts with a dream." A dream of becoming a surgeon without knowing the challenges awaiting down the path.
 
-A BDS graduate from MS Ramaiah University of Applied Sciences, Bengaluru, and an MDS in Oral & Maxillofacial Surgery from SCB (Govt.) Dental College & Hospital, Cuttack. An AOMSI Fellow in Orthogn[...]
+A BDS graduate from MS Ramaiah University of Applied Sciences, Bengaluru, and an MDS in Oral & Maxillofacial Surgery from SCB (Govt.) Dental College & Hospital, Cuttack. An AOMSI Fellow in Orthognathic Surgery and an ABMSS Fellow in Cleft Lip & Palate Surgery, currently pursuing a PhD in custom-fitted TMJ total joint replacement.
 
 I am enthusiastic, passionate, focused — and carry a ravenous appetite for knowledge. More than anything, I believe in consistency and perseverance — be it work, or be it life.`,
   signature: "— Monika",
