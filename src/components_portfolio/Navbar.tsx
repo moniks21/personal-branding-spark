@@ -27,10 +27,9 @@ export default function Navbar() {
       <div className="container nav-inner">
         <a href="#top" className="brand" onClick={() => setOpen(false)}>
           <img
-            src="/images/monika-mark.svg"
-            alt=""
+            src="/images/monika-mark.png"
+            alt="Dr. Monika Singh logo"
             className="brand-mark-img"
-            aria-hidden="true"
           />
           <span className="brand-text">
             <strong>Dr. Monika Singh</strong>
