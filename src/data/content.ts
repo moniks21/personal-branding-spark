@@ -247,23 +247,23 @@ export const AFFILIATIONS = [
 export const FAQS = [
   {
     q: "What is Oral and Maxillofacial Surgery?",
-    a: "OMFS is a surgical speciality that treats diseases, injuries, and defects in the head, neck, face, jaws, and the hard and soft tissues of the oral and maxillofacial region. It combines de[...]
+    a: "OMFS is a surgical speciality that treats diseases, injuries, and defects in the head, neck, face, jaws, and the hard and soft tissues of the oral and maxillofacial region. It combines dental, medical, and surgical training to manage everything from facial trauma to corrective jaw surgery, cleft care, TMJ disorders, and oral pathology.",
   },
   {
     q: "When should I consider orthognathic (jaw) surgery?",
-    a: "Orthognathic surgery is considered when jaw discrepancies cause difficulty in biting, chewing, breathing, speaking, or when facial asymmetry impacts confidence. A full orthodontic and sur[...]
+    a: "Orthognathic surgery is considered when jaw discrepancies cause difficulty in biting, chewing, breathing, speaking, or when facial asymmetry impacts confidence. A full orthodontic and surgical workup — including 3D imaging and treatment planning — determines whether surgery is the right option and what outcome to expect.",
   },
   {
     q: "How is TMJ disorder treated today?",
-    a: "Most TMJ disorders respond to conservative therapy. When needed, minimally invasive arthrocentesis or arthroscopy is the first-line surgical option, with total joint replacement reserved [...]
+    a: "Most TMJ disorders respond to conservative therapy. When needed, minimally invasive arthrocentesis or arthroscopy is the first-line surgical option, with total joint replacement reserved for advanced, irreversible joint disease. Each plan is patient-specific and based on careful imaging and clinical assessment.",
   },
   {
     q: "What is the treatment pathway for cleft lip and palate?",
-    a: "Cleft care is a lifelong, team-based journey — from primary lip repair in the first months of life, to palate repair, alveolar bone grafting, and orthognathic or rhinoplasty refinements[...]
+    a: "Cleft care is a lifelong, team-based journey — from primary lip repair in the first months of life, to palate repair, alveolar bone grafting, and orthognathic or rhinoplasty refinements in the teenage years. The goal is restoring function, speech, and confidence at every stage.",
   },
   {
     q: "Do you perform sinus lift and dental implant procedures?",
-    a: "Yes — both direct (lateral window) and indirect (crestal / osteotome) sinus lift procedures, along with guided bone regeneration and immediate or delayed implant placement. The approach[...]
+    a: "Yes — both direct (lateral window) and indirect (crestal / osteotome) sinus lift procedures, along with guided bone regeneration and immediate or delayed implant placement. The approach is chosen based on bone volume, anatomy, and the long-term restorative plan.",
   },
   {
     q: "How do I book a consultation?",
