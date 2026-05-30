@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Dr. Monika Singh monogram">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5c1e24"/>
+      <stop offset="100%" stop-color="#b85a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="18" fill="url(#mg)"/>
+  <rect x="6" y="6" width="68" height="68" rx="13" fill="none"
+        stroke="#e8c988" stroke-width="0.9" opacity="0.55"/>
+  <path d="M25 22 Q40 16 55 22" stroke="#e8c988" stroke-width="1" fill="none" opacity="0.75"/>
+  <circle cx="40" cy="19" r="1.2" fill="#e8c988"/>
+  <text x="40" y="60" text-anchor="middle"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="54" font-style="italic" font-weight="500"
+        fill="#e8c988">M</text>
+  <path d="M30 70 Q40 74 50 70" stroke="#e8c988" stroke-width="0.8" fill="none" opacity="0.6"/>
+</svg>
