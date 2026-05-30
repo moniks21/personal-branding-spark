@@ -16,6 +16,11 @@ export default function Activity() {
         <div className="activity-grid">
           {ACTIVITIES.map((a) => (
             <article className={`activity-card ${a.cls}`} key={a.title}>
+              {a.image && (
+                <div className="activity-media">
+                  <img src={a.image} alt={a.title} loading="lazy" />
+                </div>
+              )}
               <div className="year">{a.year}</div>
               <div>
                 <h4>{a.title}</h4>
