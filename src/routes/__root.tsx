@@ -88,6 +88,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "theme-color", content: "#C25842" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Dr. Monika Singh — Oral & Maxillofacial Surgeon" },
+      { name: "twitter:title", content: "Dr. Monika Singh — Oral & Maxillofacial Surgeon" },
+      { name: "description", content: "Dr. Monika Singh Soni's portfolio showcases her professional profile, research, and publications." },
+      { property: "og:description", content: "Dr. Monika Singh Soni's portfolio showcases her professional profile, research, and publications." },
+      { name: "twitter:description", content: "Dr. Monika Singh Soni's portfolio showcases her professional profile, research, and publications." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/487134e4-a03a-4ebd-b2a2-9d701cd0f9b9/id-preview-3e74a3ef--993e9159-b75e-491f-8c65-0ecd77965e3c.lovable.app-1780378527207.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/487134e4-a03a-4ebd-b2a2-9d701cd0f9b9/id-preview-3e74a3ef--993e9159-b75e-491f-8c65-0ecd77965e3c.lovable.app-1780378527207.png" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
