@@ -152,9 +152,12 @@
   margin: 0 0 14px;
 }
 .footer-tiles {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 8px;
+}
+.footer-tiles a {
+  width: 100%;
 }
 .footer-tiles a {
   display: flex;

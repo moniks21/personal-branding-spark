@@ -92,7 +92,13 @@ export const EDUCATION = [
 
 export const EXPERIENCE = [
   {
-    date: "Jan 2025 — Present",
+    date: "Jul 2025 — Present",
+    title: "Consultant · Oral & Maxillofacial Surgeon",
+    org: "Nuface Maxillofacial & Dental Hospital, Surat",
+    desc: "Independent consultant practice in orthognathic, TMJ, cleft, and maxillofacial surgery.",
+  },
+  {
+    date: "Jan 2025 — Jun 2026",
     title: "AOMSI Fellow · Orthognathic Surgery",
     org: "Nuface Maxillofacial & Dental Hospital, Surat",
     desc: "Orthognathic surgery planning, Le Fort I osteotomy, bilateral sagittal split osteotomy, genioplasty, and bimaxillary (bijaw) surgery.",
@@ -214,14 +220,14 @@ export const ACTIVITIES = [
     title: "Face Craft Orthognathic Surgery",
     desc: "Orthognathic workshop at Bhagwan Mahaveer Jain Hospital with faculty from across the world.",
     cls: "ac-2",
-    image: "/images/gallery/facecraft-or.jpeg",
+    image: "/images/gallery/facecraft-new.jpeg",
   },
   {
     year: "2024 · Chandigarh",
     title: "AO CMF Facial Trauma Course",
     desc: "AO Foundation course on Management of Facial Trauma at PGIMER — structured lectures & hands-on training.",
     cls: "ac-5",
-    image: null,
+    image: "/images/gallery/ao-cmf-course.jpeg",
   },
   {
     year: "Mini-Residency, Scottsdale",
