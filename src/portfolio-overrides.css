@@ -132,6 +132,10 @@
 .faq-a p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
 
 /* (7) Footer columns as small tile grids */
+footer .container {
+  display: block;
+  margin-bottom: 0;
+}
 .footer-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr 1fr;
