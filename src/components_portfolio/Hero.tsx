@@ -52,13 +52,6 @@ export default function Hero() {
             awaiting down the path.”
             <small>— Dr. Monika Singh</small>
           </p>
-          <div className="hero-badge">
-            <span className="dot" />
-            <div>
-              <strong>Accepting new consultations</strong>
-              <span>Nuface Hospital · Surat</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
