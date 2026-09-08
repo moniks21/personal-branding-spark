@@ -5,11 +5,11 @@ export default function Philosophy() {
         <div className="ornament" style={{ maxWidth: 120, margin: "0 auto 24px" }}>
           &#10022;
         </div>
-        <h2>
+        <h2 className="philosophy-gold">
           “I am a person who believes in consistency and perseverance — be it work, or be it
           life.”
         </h2>
-        <p>— A guiding philosophy</p>
+        <p className="philosophy-gold-sub">— A guiding philosophy</p>
       </div>
     </section>
   );

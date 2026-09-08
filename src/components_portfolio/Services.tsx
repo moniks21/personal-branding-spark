@@ -1,14 +1,14 @@
 import { SERVICES } from "../data/content";
 import {
-  IconBone,
-  IconJaw,
-  IconScalpel,
-  IconSmile,
-  IconStethoscope,
-  IconTooth,
+  IconCleft,
+  IconCyst,
+  IconImplant,
+  IconProfileFace,
+  IconTmjJoint,
+  IconTrauma,
 } from "./Icons";
 
-const ICONS = [IconJaw, IconSmile, IconBone, IconScalpel, IconStethoscope, IconTooth];
+const ICONS = [IconProfileFace, IconTmjJoint, IconCleft, IconTrauma, IconCyst, IconImplant];
 
 export default function Services() {
   return (
