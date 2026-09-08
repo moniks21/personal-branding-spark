@@ -136,6 +136,18 @@ export const EXPERIENCE = [
     org: "ACTREC (Tata Memorial Centre), Navi Mumbai",
     desc: "Rotational observership in advanced head & neck oncologic surgery and reconstruction.",
   },
+  {
+    date: "Apr 2026",
+    title: "Observer · Dept of Oral & Maxillofacial Surgery",
+    org: "University of Maryland Medical Center, Baltimore, USA",
+    desc: "Observership with Dr. Gary Warburton — TMJ replacement, open joint surgery, OPD, IPD, and clinical discussions.",
+  },
+  {
+    date: "Apr 2026",
+    title: "Observer · TMJ Mini-Residency",
+    org: "Scottsdale, Arizona, USA",
+    desc: "TMJ diagnosis, Level I–III arthroscopy, and total joint replacement with world-class experts.",
+  },
 ];
 
 export const PUBLICATIONS = [
@@ -199,6 +211,14 @@ export const AWARDS = [
   {
     title: "Best Paper Presentation",
     org: "46th AOMSI Annual Conference, Indore, 2022",
+  },
+  {
+    title: "Guest Speaker",
+    org: "AOCMF — Introduction to TMJ Arthroscopy",
+  },
+  {
+    title: "Panellist Member — Scientific Sessions",
+    org: "AOMSI State & National Conferences",
   },
 ];
 
