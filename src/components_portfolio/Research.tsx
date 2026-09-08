@@ -47,11 +47,11 @@ export default function Research() {
           </div>
           <div className="award-moments">
             <figure>
-              <img src="/images/gallery/famdent-stage.jpeg" alt="Dr. Monika Singh receiving the Famdent Student of the Year award on stage" loading="lazy" />
+              <img src="/images/gallery/famdent-stage.jpeg" alt="Dr Monika Singh Soni receiving the Famdent Student of the Year award on stage" loading="lazy" />
               <figcaption>Famdent Excellence in Dentistry Awards · Student of the Year (PG, Zone B)</figcaption>
             </figure>
             <figure>
-              <img src="/images/gallery/famdent-trophy.jpeg" alt="Dr. Monika Singh with the Famdent trophy" loading="lazy" />
+              <img src="/images/gallery/famdent-trophy.jpeg" alt="Dr Monika Singh Soni with the Famdent trophy" loading="lazy" />
               <figcaption>Excellence in Dentistry · Best Post-Graduate Student</figcaption>
             </figure>
           </div>

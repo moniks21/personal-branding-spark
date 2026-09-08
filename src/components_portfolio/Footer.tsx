@@ -10,11 +10,11 @@ export default function Footer() {
             <div className="brand" style={{ marginBottom: 18 }}>
               <img
                 src="/images/monika-mark.png"
-                alt="Dr. Monika Singh logo"
+                alt="Dr Monika Singh Soni logo"
                 className="brand-mark-img"
               />
               <span className="brand-text" style={{ color: "#fff" }}>
-                <strong style={{ color: "#fff" }}>Dr. Monika Singh</strong>
+                <strong style={{ color: "#fff" }}>Dr Monika Singh Soni</strong>
                 <span style={{ color: "rgba(250,246,237,0.55)" }}>
                   Oral &amp; Maxillofacial Surgeon
                 </span>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>© {year} Dr. Monika Singh. All rights reserved.</span>
+          <span>© {year} Dr Monika Singh Soni. All rights reserved.</span>
           <span className="crafted">
             Crafted with <span className="heart">♥</span> as a birthday gift.
           </span>

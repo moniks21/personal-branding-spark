@@ -32,7 +32,7 @@ export default function Navbar() {
             className="brand-mark-img"
           />
           <span className="brand-text">
-            <strong>Dr. Monika Singh</strong>
+            <strong>Dr Monika Singh Soni</strong>
             <span>Oral &amp; Maxillofacial Surgeon</span>
           </span>
         </a>
