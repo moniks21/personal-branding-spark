@@ -8,7 +8,7 @@ export const DOCTOR = {
   subtitle:
     "AOMSI Fellow · Orthognathic Surgery · ABMSS Fellow · Cleft Lip & Palate · PhD Candidate, Custom-fit TMJ TJR",
   city: "Surat and Ahmedabad, Gujarat",
-  hospitals: "Nuface Maxillofacial & Dental Hospital · KP Sanghvi Hospital",
+  hospitals: "Nuface Maxillofacial & Dental Hospital",
   tagline:
     "Restoring smiles, rebuilding confidence. Advanced orthognathic, TMJ, and cleft surgical care — delivered with precision and compassion.",
   about: `"It all starts with a dream." A dream of becoming a surgeon without knowing the challenges awaiting down the path.
@@ -281,12 +281,6 @@ export const AFFILIATIONS = [
     address: "Surat, Gujarat, India",
     logo: nufaceLogo.url,
   },
-  {
-    name: "KP Sanghvi Hospital",
-    desc: "Multi-specialty practice",
-    address: "Surat, Gujarat, India",
-    logo: null,
-  },
 ];
 
 export const FAQS = [
@@ -318,7 +312,6 @@ export const FAQS = [
 
 export const CONTACT = {
   clinic: "Nuface Maxillofacial & Dental Hospital",
-  clinic2: "KP Sanghvi Hospital",
   address: "Surat, Gujarat, India",
   clinic3: "TBS — The Bombay Surgeons",
   address3:
