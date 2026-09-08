@@ -1,3 +1,6 @@
+import nufaceLogo from "../assets/nuface_logo.png.asset.json";
+import tbsLogo from "../assets/tbs_logo.jpeg.asset.json";
+
 export const DOCTOR = {
   name: "Dr Monika Singh Soni",
   fullName: "Dr Monika Singh Soni",
@@ -249,13 +252,13 @@ export const AFFILIATIONS = [
     name: "TBS — The Bombay Surgeons",
     desc: "Consultant · Oral & Maxillofacial Surgery",
     address: "Ahmedabad, Gujarat, India",
-    logo: "/images/tbs-logo.png",
+    logo: tbsLogo.url,
   },
   {
     name: "Nuface Maxillofacial & Dental Hospital",
     desc: "Consultant · Orthognathic & TMJ Surgery",
     address: "Surat, Gujarat, India",
-    logo: null,
+    logo: nufaceLogo.url,
   },
   {
     name: "KP Sanghvi Hospital",
