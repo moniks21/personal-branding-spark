@@ -16,23 +16,25 @@ export default function Research() {
             </p>
           </div>
 
-          <div>
+          <div className="pub-tiles">
             {PUBLICATIONS.map((p) => (
-              <article className="pub" key={p.title}>
+              <article className="pub-tile" key={p.title}>
                 {p.image && (
-                  <div className="pub-image">
-                    <img src={p.image} alt={p.title} />
+                  <div className="pub-tile-image">
+                    <img src={p.image} alt={p.title} loading="lazy" />
                   </div>
                 )}
-                <div className="pub-year">
-                  {p.year}
-                  <small>{p.month}</small>
-                </div>
-                <div>
+                <div className="pub-tile-body">
+                  <div className="pub-tile-meta">
+                    <span className="pub-tile-year">
+                      {p.year}
+                      {p.month !== "—" ? ` · ${p.month}` : ""}
+                    </span>
+                    <span className="pub-tag">{p.tag}</span>
+                  </div>
                   <h4>{p.title}</h4>
                   <p className="journal">{p.journal}</p>
                 </div>
-                <div className="pub-tag">{p.tag}</div>
               </article>
             ))}
           </div>
@@ -47,11 +49,11 @@ export default function Research() {
           </div>
           <div className="award-moments">
             <figure>
-              <img src="/images/gallery/famdent-stage.jpeg" alt="Dr. Monika Singh receiving the Famdent Student of the Year award on stage" loading="lazy" />
+              <img src="/images/gallery/famdent-stage.jpeg" alt="Dr Monika Singh Soni receiving the Famdent Student of the Year award on stage" loading="lazy" />
               <figcaption>Famdent Excellence in Dentistry Awards · Student of the Year (PG, Zone B)</figcaption>
             </figure>
             <figure>
-              <img src="/images/gallery/famdent-trophy.jpeg" alt="Dr. Monika Singh with the Famdent trophy" loading="lazy" />
+              <img src="/images/gallery/famdent-trophy.jpeg" alt="Dr Monika Singh Soni with the Famdent trophy" loading="lazy" />
               <figcaption>Excellence in Dentistry · Best Post-Graduate Student</figcaption>
             </figure>
           </div>

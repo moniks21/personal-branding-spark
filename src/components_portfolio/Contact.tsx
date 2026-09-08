@@ -72,7 +72,7 @@ export default function Contact() {
                 <h4>LinkedIn</h4>
                 <p>
                   <a href={CONTACT.linkedin} target="_blank" rel="noreferrer">
-                    Dr. Monika Singh
+                    Dr Monika Singh Soni
                   </a>
                 </p>
               </div>

@@ -79,17 +79,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dr. Monika Singh — Oral & Maxillofacial Surgeon" },
+      { title: "Dr Monika Singh Soni — Oral & Maxillofacial Surgeon" },
       {
         name: "description",
         content:
-          "Dr. Monika Singh — AOMSI Fellow in Orthognathic Surgery & ABMSS Fellow in Cleft Lip and Palate Surgery. Oral & Maxillofacial Surgeon practicing in Surat, India.",
+          "Dr Monika Singh Soni — AOMSI Fellow in Orthognathic Surgery & ABMSS Fellow in Cleft Lip and Palate Surgery. Oral & Maxillofacial Surgeon practicing in Surat, India.",
       },
       { name: "theme-color", content: "#C25842" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:title", content: "Dr. Monika Singh — Oral & Maxillofacial Surgeon" },
-      { name: "twitter:title", content: "Dr. Monika Singh — Oral & Maxillofacial Surgeon" },
+      { property: "og:title", content: "Dr Monika Singh Soni — Oral & Maxillofacial Surgeon" },
+      { name: "twitter:title", content: "Dr Monika Singh Soni — Oral & Maxillofacial Surgeon" },
       { name: "description", content: "Dr. Monika Singh Soni's portfolio showcases her professional profile, research, and publications." },
       { property: "og:description", content: "Dr. Monika Singh Soni's portfolio showcases her professional profile, research, and publications." },
       { name: "twitter:description", content: "Dr. Monika Singh Soni's portfolio showcases her professional profile, research, and publications." },

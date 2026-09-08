@@ -1,6 +1,6 @@
 export const DOCTOR = {
-  name: "Dr. Monika Singh",
-  fullName: "Dr. Monika Singh Soni",
+  name: "Dr Monika Singh Soni",
+  fullName: "Dr Monika Singh Soni",
   title: "Oral & Maxillofacial Surgeon",
   subtitle:
     "AOMSI Fellow · Orthognathic Surgery · ABMSS Fellow · Cleft Lip & Palate · PhD Candidate, Custom-fit TMJ TJR",
@@ -18,7 +18,7 @@ I am enthusiastic, passionate, focused — and carry a ravenous appetite for kno
 
 export const STATS = [
   { n: "50+", l: "Orthognathic cases" },
-  { n: "6+", l: "Years of training" },
+  { n: "10+", l: "Years of training" },
   { n: "10+", l: "National & international certifications" },
   { n: "4+", l: "Academic publications" },
 ];
@@ -94,6 +94,12 @@ export const EXPERIENCE = [
   {
     date: "Jul 2025 — Present",
     title: "Consultant · Oral & Maxillofacial Surgeon",
+    org: "TBS — The Bombay Surgeons, Ahmedabad",
+    desc: "Consultant practice in orthognathic, TMJ, cleft, and facial reconstructive surgery.",
+  },
+  {
+    date: "Jul 2025 — Present",
+    title: "Consultant · Oral & Maxillofacial Surgeon",
     org: "Nuface Maxillofacial & Dental Hospital, Surat",
     desc: "Independent consultant practice in orthognathic, TMJ, cleft, and maxillofacial surgery.",
   },
@@ -110,7 +116,7 @@ export const EXPERIENCE = [
     desc: "Cleft lip and palate surgery, alveolar bone grafting, cleft orthognathic surgery, cleft rhinoplasty, and secondary cleft deformity correction.",
   },
   {
-    date: "Aug 2023 — Jan 2025",
+    date: "Aug 2023 — Dec 2024",
     title: "Senior Resident · Oral & Maxillofacial Surgery",
     org: "SCB Medical College & Hospital, Cuttack",
     desc: "Independent management of maxillofacial trauma, oncology, and reconstructive cases at a tertiary-care teaching hospital.",
@@ -240,18 +246,21 @@ export const ACTIVITIES = [
 
 export const AFFILIATIONS = [
   {
-    name: "The Bombay Surgeons",
-    desc: "Family practice · Ahmedabad",
+    name: "TBS — The Bombay Surgeons",
+    desc: "Consultant · Oral & Maxillofacial Surgery",
+    address: "Ahmedabad, Gujarat, India",
     logo: "/images/tbs-logo.png",
   },
   {
     name: "Nuface Maxillofacial & Dental Hospital",
-    desc: "Orthognathic Fellowship · Surat",
+    desc: "Consultant · Orthognathic & TMJ Surgery",
+    address: "Surat, Gujarat, India",
     logo: null,
   },
   {
     name: "KP Sanghvi Hospital",
-    desc: "Multi-specialty practice · Surat",
+    desc: "Multi-specialty practice",
+    address: "Surat, Gujarat, India",
     logo: null,
   },
 ];
