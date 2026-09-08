@@ -85,17 +85,6 @@ export default function Research() {
               </figure>
             ))}
           </div>
-          <div className="awards-grid">
-            {AWARDS.map((a) => (
-              <div className="award" key={a.title}>
-                <div className="trophy">
-                  <IconAward width={28} height={28} />
-                </div>
-                <h4>{a.title}</h4>
-                <p>{a.org}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </>
