@@ -40,6 +40,11 @@ export default function Contact() {
                   <br />
                   {CONTACT.address}
                 </p>
+                <p style={{ marginTop: 10 }}>
+                  <strong>{CONTACT.clinic3}</strong>
+                  <br />
+                  {CONTACT.address3}
+                </p>
               </div>
             </div>
             <div className="contact-card">
