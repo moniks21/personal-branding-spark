@@ -1,5 +1,26 @@
 import { AWARDS, PUBLICATIONS } from "../data/content";
 import { IconAward } from "./Icons";
+import a1 from "../assets/award-1-2.jpeg.asset.json";
+import a2 from "../assets/award-2-3.jpeg.asset.json";
+import a3 from "../assets/award-3-3.jpeg.asset.json";
+import a4 from "../assets/award-4-3.jpeg.asset.json";
+import a5 from "../assets/award-5-3.jpeg.asset.json";
+import a6 from "../assets/award-6-2.jpeg.asset.json";
+import a7 from "../assets/award-7-2.jpeg.asset.json";
+import a8 from "../assets/award-8-2.jpeg.asset.json";
+import a9 from "../assets/award-9.jpeg.asset.json";
+
+const AWARD_MOMENTS = [
+  { src: a1.url, caption: "Gold Medal testimonial · MS Ramaiah University of Applied Sciences" },
+  { src: a2.url, caption: "Fourth Convocation · MS Ramaiah University of Applied Sciences" },
+  { src: a3.url, caption: "Convocation with the faculty · MS Ramaiah University" },
+  { src: a4.url, caption: "Presenting 'Bear Mauling: Challenges & Sequelae' · 2nd AOMSI Odisha State Chapter" },
+  { src: a5.url, caption: "Receiving the certificate · 2nd AOMSI Odisha State Chapter" },
+  { src: a6.url, caption: "Academic presentation on ameloblastoma · SCB Dental College, Cuttack" },
+  { src: a7.url, caption: "Speaking on TMJ arthroscopy · AOMSI MIDCOMS 2026, Bhopal" },
+  { src: a8.url, caption: "47th AOMSI Annual Conference · Delhi, 2023" },
+  { src: a9.url, caption: "3rd AOMSI Odisha State Chapter Conference · Certificate of appreciation" },
+];
 
 export default function Research() {
   return (
@@ -56,6 +77,12 @@ export default function Research() {
               <img src="/images/gallery/famdent-trophy.jpeg" alt="Dr Monika Singh Soni with the Famdent trophy" loading="lazy" />
               <figcaption>Excellence in Dentistry · Best Post-Graduate Student</figcaption>
             </figure>
+            {AWARD_MOMENTS.map((m) => (
+              <figure key={m.src}>
+                <img src={m.src} alt={m.caption} loading="lazy" />
+                <figcaption>{m.caption}</figcaption>
+              </figure>
+            ))}
           </div>
           <div className="awards-grid">
             {AWARDS.map((a) => (

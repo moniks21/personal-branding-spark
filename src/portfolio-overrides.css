@@ -259,16 +259,16 @@ footer .container {
   .services-grid { grid-template-columns: 1fr !important; }
 }
 
-/* === Guiding philosophy in gold === */
+/* === Guiding philosophy in white === */
 .philosophy h2.philosophy-gold {
-  color: #E8B54B !important;
-  background: linear-gradient(100deg, #F3D27A, #E0A32E 55%, #F7E3A1);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ffffff !important;
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: #ffffff;
 }
 .philosophy .philosophy-gold-sub {
-  color: #E8B54B !important;
+  color: rgba(255, 255, 255, 0.82) !important;
   font-style: italic;
   letter-spacing: 0.06em;
 }
@@ -390,3 +390,40 @@ footer .container {
 .affiliation h4 { margin: 0 0 6px; font-size: 18px; }
 .affiliation p { margin: 0; font-size: 14px; opacity: 0.8; }
 .affiliation .affiliation-address { margin-top: 8px; font-size: 13px; opacity: 0.6; }
+
+/* === Conference & fellowship cards: half image, half text === */
+.activity-card {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  gap: 0;
+  overflow: hidden;
+}
+.activity-card .activity-media {
+  margin: -1.25rem 0 -1.25rem -1.25rem;
+  border-radius: 14px 0 0 14px;
+  aspect-ratio: auto;
+  height: auto;
+  min-height: 100%;
+}
+.activity-card .activity-media img {
+  object-fit: cover !important;
+  object-position: 50% 30%;
+  height: 100%;
+}
+.activity-card .activity-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-left: 1.15rem;
+}
+@media (max-width: 720px) {
+  .activity-card { grid-template-columns: 1fr; }
+  .activity-card .activity-media {
+    margin: -1.25rem -1.25rem 1rem;
+    border-radius: 14px 14px 0 0;
+    aspect-ratio: 4 / 3;
+  }
+  .activity-card .activity-body { padding-left: 0; }
+}
