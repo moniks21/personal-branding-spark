@@ -28,7 +28,7 @@ export default function Services() {
               <article className="service" key={s.title}>
                 <div className="service-icon">
                   {img ? (
-                    <img src={img} alt="" className="service-icon-img" loading="lazy" />
+                    <img src={img} alt="" className="service-icon-img" />
                   ) : (
                     <IconCyst width={26} height={26} />
                   )}
