@@ -259,16 +259,16 @@ footer .container {
   .services-grid { grid-template-columns: 1fr !important; }
 }
 
-/* === Guiding philosophy in gold === */
+/* === Guiding philosophy in white === */
 .philosophy h2.philosophy-gold {
-  color: #E8B54B !important;
-  background: linear-gradient(100deg, #F3D27A, #E0A32E 55%, #F7E3A1);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ffffff !important;
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: #ffffff;
 }
 .philosophy .philosophy-gold-sub {
-  color: #E8B54B !important;
+  color: rgba(255, 255, 255, 0.82) !important;
   font-style: italic;
   letter-spacing: 0.06em;
 }
