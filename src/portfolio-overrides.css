@@ -442,27 +442,27 @@ footer .container {
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 20px;
 }
-/* First row: horizontal 50-50 (photo left, text right) */
+/* First row: vertical 50-50 (photo top, text below) */
 .activity-grid > .activity-card:nth-child(-n + 3) {
-  grid-template-columns: 1fr 1fr !important;
-}
-.activity-grid > .activity-card:nth-child(-n + 3) .activity-media {
-  margin: -1.25rem 0 -1.25rem -1.25rem;
-  border-radius: 14px 0 0 14px;
-  min-height: 100%;
-}
-/* Second row: vertical 50-50 (photo top, text below) */
-.activity-grid > .activity-card:nth-child(n + 4) {
   grid-template-columns: 1fr !important;
   grid-template-rows: 1fr 1fr;
 }
-.activity-grid > .activity-card:nth-child(n + 4) .activity-media {
+.activity-grid > .activity-card:nth-child(-n + 3) .activity-media {
   margin: -1.25rem -1.25rem 1rem !important;
   border-radius: 14px 14px 0 0 !important;
   aspect-ratio: auto !important;
   min-height: 220px;
 }
-.activity-grid > .activity-card:nth-child(n + 4) .activity-body { padding-left: 0; }
+.activity-grid > .activity-card:nth-child(-n + 3) .activity-body { padding-left: 0; }
+/* Second row: horizontal 50-50 (photo left, text right) */
+.activity-grid > .activity-card:nth-child(n + 4) {
+  grid-template-columns: 1fr 1fr !important;
+}
+.activity-grid > .activity-card:nth-child(n + 4) .activity-media {
+  margin: -1.25rem 0 -1.25rem -1.25rem;
+  border-radius: 14px 0 0 14px;
+  min-height: 100%;
+}
 .activity-card .activity-media img { object-position: 50% 25%; }
 
 @media (max-width: 1000px) {
@@ -470,8 +470,8 @@ footer .container {
 }
 @media (max-width: 720px) {
   .activity-grid { grid-template-columns: 1fr !important; }
-  .activity-grid > .activity-card:nth-child(-n + 3) { grid-template-columns: 1fr !important; }
-  .activity-grid > .activity-card:nth-child(-n + 3) .activity-media {
+  .activity-grid > .activity-card:nth-child(n + 4) { grid-template-columns: 1fr !important; }
+  .activity-grid > .activity-card:nth-child(n + 4) .activity-media {
     margin: -1.25rem -1.25rem 1rem;
     border-radius: 14px 14px 0 0;
     min-height: 200px;
