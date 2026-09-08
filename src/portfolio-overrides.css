@@ -390,3 +390,40 @@ footer .container {
 .affiliation h4 { margin: 0 0 6px; font-size: 18px; }
 .affiliation p { margin: 0; font-size: 14px; opacity: 0.8; }
 .affiliation .affiliation-address { margin-top: 8px; font-size: 13px; opacity: 0.6; }
+
+/* === Conference & fellowship cards: half image, half text === */
+.activity-card {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  gap: 0;
+  overflow: hidden;
+}
+.activity-card .activity-media {
+  margin: -1.25rem 0 -1.25rem -1.25rem;
+  border-radius: 14px 0 0 14px;
+  aspect-ratio: auto;
+  height: auto;
+  min-height: 100%;
+}
+.activity-card .activity-media img {
+  object-fit: cover !important;
+  object-position: 50% 30%;
+  height: 100%;
+}
+.activity-card .activity-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-left: 1.15rem;
+}
+@media (max-width: 720px) {
+  .activity-card { grid-template-columns: 1fr; }
+  .activity-card .activity-media {
+    margin: -1.25rem -1.25rem 1rem;
+    border-radius: 14px 14px 0 0;
+    aspect-ratio: 4 / 3;
+  }
+  .activity-card .activity-body { padding-left: 0; }
+}
