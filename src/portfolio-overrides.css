@@ -342,13 +342,18 @@ footer .container {
 }
 
 /* Specialty icon images */
+.service .service-icon {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+}
 .service .service-icon-img {
-  width: 34px;
-  height: 34px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   display: block;
 }
-.service .service-icon { display: grid; place-items: center; }
 
 /* Practice & affiliations cards */
 .affiliation-grid {
