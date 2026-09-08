@@ -428,11 +428,12 @@ footer .container {
   .activity-card .activity-body { padding-left: 0; }
 }
 
-/* === Award moments: show full photo, faces visible === */
+/* === Award moments: landscape tiles, faces visible === */
 .award-moments img {
-  object-fit: contain !important;
-  object-position: 50% 50% !important;
-  height: 340px;
+  object-fit: cover !important;
+  object-position: 50% 22% !important;
+  height: auto;
+  aspect-ratio: 4 / 3;
   background: #f7efe9;
 }
 
