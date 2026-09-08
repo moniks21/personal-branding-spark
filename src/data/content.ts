@@ -95,6 +95,18 @@ export const EDUCATION = [
 
 export const EXPERIENCE = [
   {
+    date: "Apr 2026",
+    title: "Observer · TMJ Mini-Residency",
+    org: "Scottsdale, Arizona, USA",
+    desc: "TMJ diagnosis, Level I–III arthroscopy, and total joint replacement with world-class experts.",
+  },
+  {
+    date: "Apr 2026",
+    title: "Observer · Dept of Oral & Maxillofacial Surgery",
+    org: "University of Maryland Medical Center, Baltimore, USA",
+    desc: "Observership with Dr. Gary Warburton — TMJ replacement, open joint surgery, OPD, IPD, and clinical discussions.",
+  },
+  {
     date: "Jul 2025 — Present",
     title: "Consultant · Oral & Maxillofacial Surgeon",
     org: "TBS — The Bombay Surgeons, Ahmedabad",
@@ -125,28 +137,16 @@ export const EXPERIENCE = [
     desc: "Independent management of maxillofacial trauma, oncology, and reconstructive cases at a tertiary-care teaching hospital.",
   },
   {
-    date: "Aug 2020 — Jul 2023",
-    title: "Junior Resident · Oral & Maxillofacial Surgery",
-    org: "SCB Dental College & Hospital, Cuttack",
-    desc: "Three-year surgical residency with active roles in academics, trauma care, and the Junior Doctors' Association.",
-  },
-  {
     date: "Jul — Aug 2022",
     title: "Observer · Head & Neck Surgical Oncology",
     org: "ACTREC (Tata Memorial Centre), Navi Mumbai",
     desc: "Rotational observership in advanced head & neck oncologic surgery and reconstruction.",
   },
   {
-    date: "Apr 2026",
-    title: "Observer · Dept of Oral & Maxillofacial Surgery",
-    org: "University of Maryland Medical Center, Baltimore, USA",
-    desc: "Observership with Dr. Gary Warburton — TMJ replacement, open joint surgery, OPD, IPD, and clinical discussions.",
-  },
-  {
-    date: "Apr 2026",
-    title: "Observer · TMJ Mini-Residency",
-    org: "Scottsdale, Arizona, USA",
-    desc: "TMJ diagnosis, Level I–III arthroscopy, and total joint replacement with world-class experts.",
+    date: "Aug 2020 — Jul 2023",
+    title: "Junior Resident · Oral & Maxillofacial Surgery",
+    org: "SCB Dental College & Hospital, Cuttack",
+    desc: "Three-year surgical residency with active roles in academics, trauma care, and the Junior Doctors' Association.",
   },
 ];
 
