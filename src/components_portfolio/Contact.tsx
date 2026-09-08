@@ -36,8 +36,6 @@ export default function Contact() {
                 <p>
                   {CONTACT.clinic}
                   <br />
-                  {CONTACT.clinic2}
-                  <br />
                   {CONTACT.address}
                 </p>
                 <p style={{ marginTop: 10 }}>
