@@ -33,9 +33,6 @@ export default function Hero() {
               <IconPin width={16} height={16} style={{ verticalAlign: -3, marginRight: 6 }} />
               <strong>{DOCTOR.city}</strong>
             </span>
-            <span>
-              Practicing at <strong>{DOCTOR.hospitals}</strong>
-            </span>
           </div>
         </div>
 

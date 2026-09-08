@@ -7,7 +7,7 @@ export const DOCTOR = {
   title: "Oral & Maxillofacial Surgeon",
   subtitle:
     "AOMSI Fellow · Orthognathic Surgery · ABMSS Fellow · Cleft Lip & Palate · PhD Candidate, Custom-fit TMJ TJR",
-  city: "Surat, Gujarat, India",
+  city: "Surat and Ahmedabad, Gujarat",
   hospitals: "Nuface Maxillofacial & Dental Hospital · KP Sanghvi Hospital",
   tagline:
     "Restoring smiles, rebuilding confidence. Advanced orthognathic, TMJ, and cleft surgical care — delivered with precision and compassion.",
@@ -95,6 +95,18 @@ export const EDUCATION = [
 
 export const EXPERIENCE = [
   {
+    date: "Jul 2026 — Present",
+    title: "Consultant · Oral & Maxillofacial Surgeon",
+    org: "TBS — The Bombay Surgeons, Ahmedabad",
+    desc: "Consultant practice in orthognathic, TMJ, cleft, and facial reconstructive surgery.",
+  },
+  {
+    date: "Jul 2026 — Present",
+    title: "Consultant · Oral & Maxillofacial Surgeon",
+    org: "Nuface Maxillofacial & Dental Hospital, Surat",
+    desc: "Independent consultant practice in orthognathic, TMJ, cleft, and maxillofacial surgery.",
+  },
+  {
     date: "Apr 2026",
     title: "Observer · TMJ Mini-Residency",
     org: "Scottsdale, Arizona, USA",
@@ -105,18 +117,6 @@ export const EXPERIENCE = [
     title: "Observer · Dept of Oral & Maxillofacial Surgery",
     org: "University of Maryland Medical Center, Baltimore, USA",
     desc: "Observership with Dr. Gary Warburton — TMJ replacement, open joint surgery, OPD, IPD, and clinical discussions.",
-  },
-  {
-    date: "Jul 2025 — Present",
-    title: "Consultant · Oral & Maxillofacial Surgeon",
-    org: "TBS — The Bombay Surgeons, Ahmedabad",
-    desc: "Consultant practice in orthognathic, TMJ, cleft, and facial reconstructive surgery.",
-  },
-  {
-    date: "Jul 2025 — Present",
-    title: "Consultant · Oral & Maxillofacial Surgeon",
-    org: "Nuface Maxillofacial & Dental Hospital, Surat",
-    desc: "Independent consultant practice in orthognathic, TMJ, cleft, and maxillofacial surgery.",
   },
   {
     date: "Jan 2025 — Jun 2026",
@@ -238,6 +238,13 @@ export const ACTIVITIES = [
     image: "/images/gallery/scottsdale-mentors.jpeg",
   },
   {
+    year: "Mini-Residency, Scottsdale",
+    title: "TMJ Surgery Observership · Certificate",
+    desc: "Successfully completed the TMJ Surgery Observership under faculty Warburton, Levin, DiFabio, Patel, Burris, Hakim, Davis & Zakai.",
+    cls: "ac-6",
+    image: "/images/gallery/tmj-certificate.jpeg",
+  },
+  {
     year: "2025 · Cairo, Egypt",
     title: "International TMJ Workshop",
     desc: "13th International Conference of the Egyptian Association of Oral & Maxillofacial Surgery.",
@@ -258,20 +265,14 @@ export const ACTIVITIES = [
     cls: "ac-5",
     image: "/images/gallery/ao-cmf-course.jpeg",
   },
-  {
-    year: "Mini-Residency, Scottsdale",
-    title: "TMJ Surgery Observership · Certificate",
-    desc: "Successfully completed the TMJ Surgery Observership under faculty Warburton, Levin, DiFabio, Patel, Burris, Hakim, Davis & Zakai.",
-    cls: "ac-6",
-    image: "/images/gallery/tmj-certificate.jpeg",
-  },
 ];
 
 export const AFFILIATIONS = [
   {
     name: "TBS — The Bombay Surgeons",
     desc: "Consultant · Oral & Maxillofacial Surgery",
-    address: "Ahmedabad, Gujarat, India",
+    address:
+      "4th Floor, AWS 3, 412, B-wing, Drive In Rd, opp. Indian Oil Petrol Pump, Memnagar, Ahmedabad, Gujarat 380054",
     logo: tbsLogo.url,
   },
   {
@@ -319,6 +320,9 @@ export const CONTACT = {
   clinic: "Nuface Maxillofacial & Dental Hospital",
   clinic2: "KP Sanghvi Hospital",
   address: "Surat, Gujarat, India",
+  clinic3: "TBS — The Bombay Surgeons",
+  address3:
+    "4th Floor, AWS 3, 412, B-wing, Drive In Rd, opp. Indian Oil Petrol Pump, Memnagar, Ahmedabad, Gujarat 380054",
   email: "monikasingh2121@gmail.com",
   phone: "+91 74061 92177",
   phoneRaw: "+917406192177",
