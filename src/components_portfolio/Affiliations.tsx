@@ -25,6 +25,7 @@ export default function Affiliations() {
               )}
               <h4>{a.name}</h4>
               <p>{a.desc}</p>
+              {a.address && <p className="affiliation-address">{a.address}</p>}
             </div>
           ))}
         </div>

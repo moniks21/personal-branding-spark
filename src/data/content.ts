@@ -246,18 +246,21 @@ export const ACTIVITIES = [
 
 export const AFFILIATIONS = [
   {
-    name: "The Bombay Surgeons",
-    desc: "Family practice · Ahmedabad",
+    name: "TBS — The Bombay Surgeons",
+    desc: "Consultant · Oral & Maxillofacial Surgery",
+    address: "Ahmedabad, Gujarat, India",
     logo: "/images/tbs-logo.png",
   },
   {
     name: "Nuface Maxillofacial & Dental Hospital",
-    desc: "Orthognathic Fellowship · Surat",
+    desc: "Consultant · Orthognathic & TMJ Surgery",
+    address: "Surat, Gujarat, India",
     logo: null,
   },
   {
     name: "KP Sanghvi Hospital",
-    desc: "Multi-specialty practice · Surat",
+    desc: "Multi-specialty practice",
+    address: "Surat, Gujarat, India",
     logo: null,
   },
 ];
