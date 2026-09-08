@@ -77,6 +77,12 @@ export default function Research() {
               <img src="/images/gallery/famdent-trophy.jpeg" alt="Dr Monika Singh Soni with the Famdent trophy" loading="lazy" />
               <figcaption>Excellence in Dentistry · Best Post-Graduate Student</figcaption>
             </figure>
+            {AWARD_MOMENTS.map((m) => (
+              <figure key={m.src}>
+                <img src={m.src} alt={m.caption} loading="lazy" />
+                <figcaption>{m.caption}</figcaption>
+              </figure>
+            ))}
           </div>
           <div className="awards-grid">
             {AWARDS.map((a) => (
