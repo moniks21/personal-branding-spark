@@ -21,8 +21,8 @@ export default function Activity() {
                   <img src={a.image} alt={a.title} loading="lazy" />
                 </div>
               )}
-              <div className="year">{a.year}</div>
-              <div>
+              <div className="activity-body">
+                <div className="year">{a.year}</div>
                 <h4>{a.title}</h4>
                 <p>{a.desc}</p>
               </div>
