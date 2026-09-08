@@ -1,14 +1,12 @@
 import { SERVICES } from "../data/content";
-import {
-  IconCleft,
-  IconCyst,
-  IconImplant,
-  IconProfileFace,
-  IconTmjJoint,
-  IconTrauma,
-} from "./Icons";
+import { IconCyst } from "./Icons";
+import ortho from "../assets/orthognathic-surgery.webp.asset.json";
+import tmj from "../assets/tmj.webp.asset.json";
+import cleft from "../assets/cleft.jpeg.asset.json";
+import fracture from "../assets/fracture.webp.asset.json";
+import implant from "../assets/implant.webp.asset.json";
 
-const ICONS = [IconProfileFace, IconTmjJoint, IconCleft, IconTrauma, IconCyst, IconImplant];
+const ICON_IMAGES = [ortho.url, tmj.url, cleft.url, fracture.url, null, implant.url];
 
 export default function Services() {
   return (
@@ -25,11 +23,15 @@ export default function Services() {
 
         <div className="services-grid">
           {SERVICES.map((s, i) => {
-            const Icon = ICONS[i % ICONS.length];
+            const img = ICON_IMAGES[i];
             return (
               <article className="service" key={s.title}>
                 <div className="service-icon">
-                  <Icon width={26} height={26} />
+                  {img ? (
+                    <img src={img} alt="" className="service-icon-img" loading="lazy" />
+                  ) : (
+                    <IconCyst width={26} height={26} />
+                  )}
                 </div>
                 <div className="service-num">({s.num})</div>
                 <h3>{s.title}</h3>

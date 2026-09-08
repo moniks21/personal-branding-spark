@@ -340,3 +340,12 @@ footer .container {
   color: var(--muted);
   margin-top: 4px;
 }
+
+/* Specialty icon images */
+.service .service-icon-img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+}
+.service .service-icon { display: grid; place-items: center; }
