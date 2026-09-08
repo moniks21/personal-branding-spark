@@ -25,14 +25,9 @@ export default function Navbar() {
   return (
     <header className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="container nav-inner">
-        <a href="#top" className="brand" onClick={() => setOpen(false)}>
-          <img
-            src="/images/monika-mark.png"
-            alt="Dr. Monika Singh logo"
-            className="brand-mark-img"
-          />
+        <a href="#top" className="brand brand-no-logo" onClick={() => setOpen(false)}>
           <span className="brand-text">
-            <strong>Dr Monika Singh Soni</strong>
+            <strong>DR MONIKA SINGH SONI</strong>
             <span>Oral &amp; Maxillofacial Surgeon</span>
           </span>
         </a>
