@@ -39,21 +39,12 @@
   color: var(--tbs-peach-deep) !important;
 }
 
-/* New circular logo mark */
-.brand-mark-img {
-  width: 56px !important;
-  height: 56px !important;
-  border-radius: 50% !important;
-  background: #fff;
-  padding: 4px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
-}
-
 /* (2) Bigger name + specialty in header */
 .nav .brand-text strong {
   font-size: 1.55rem !important;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.02em;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 .nav .brand-text span {
   font-size: 0.82rem !important;
@@ -63,7 +54,6 @@
 @media (max-width: 720px) {
   .nav .brand-text strong { font-size: 1.15rem !important; }
   .nav .brand-text span { font-size: 0.68rem !important; }
-  .brand-mark-img { width: 44px !important; height: 44px !important; }
 }
 
 /* (6) FAQ as tiles */
