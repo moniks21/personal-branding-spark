@@ -18,7 +18,7 @@ export default function Journey() {
             <h3 className="col-title">Experience &amp; Fellowships</h3>
             <div className="timeline">
               {EXPERIENCE.map((e) => (
-                <div className="tl-item" key={e.title}>
+                <div className="tl-item" key={`${e.title}-${e.org}`}>
                   <div className="tl-date">{e.date}</div>
                   <h4>{e.title}</h4>
                   <div className="org">{e.org}</div>
@@ -32,7 +32,7 @@ export default function Journey() {
             <h3 className="col-title">Education</h3>
             <div className="timeline">
               {EDUCATION.map((e) => (
-                <div className="tl-item" key={e.title}>
+                <div className="tl-item" key={`${e.title}-${e.org}`}>
                   <div className="tl-date">{e.date}</div>
                   <h4>{e.title}</h4>
                   <div className="org">{e.org}</div>

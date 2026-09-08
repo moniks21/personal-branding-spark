@@ -4,7 +4,7 @@ import ortho from "../assets/orthognathic-surgery.webp.asset.json";
 import tmj from "../assets/tmj.webp.asset.json";
 import cleft from "../assets/cleft.jpeg.asset.json";
 import fracture from "../assets/fracture.webp.asset.json";
-import implant from "../assets/implant.webp.asset.json";
+import implant from "../assets/implant.png.asset.json";
 
 const ICON_IMAGES = [ortho.url, tmj.url, cleft.url, fracture.url, null, implant.url];
 
