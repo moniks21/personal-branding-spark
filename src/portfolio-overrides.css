@@ -465,8 +465,8 @@ footer .container {
   min-height: 100%;
 }
 .activity-card .activity-media img { object-position: 50% 25%; }
-/* Shift Warburton observership photo up so sky is cropped out */
-.activity-card.ac-4 .activity-media img { object-position: 50% 68% !important; }
+/* Warburton observership photo: keep faces/Dr. Gary's head visible while minimising sky */
+.activity-card.ac-4 .activity-media img { object-position: 50% 42% !important; }
 
 
 @media (max-width: 1000px) {
