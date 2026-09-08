@@ -121,3 +121,49 @@ export const IconSparkle = (p: SVGProps<SVGSVGElement>) => (
     <path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6" />
   </svg>
 );
+
+export const IconProfileFace = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M16 3c-4.5 0-7.5 3-7.5 7 0 2-1.5 3.4-2.2 4.4-.4.6-.2 1.3.5 1.5l1.7.5v2.6c0 1.7 1.3 3 3 3h3" />
+    <path d="M12 10h.01M15.5 14c-1 1-2.5 1-3.5.6" />
+  </svg>
+);
+
+export const IconTmjJoint = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M5 6c3 0 5 1.5 6 4" />
+    <circle cx="15" cy="11" r="3.2" />
+    <path d="M19 17c-2.5 1.8-6 2-9 .6" />
+    <path d="M5 6v4M19 14v3" />
+  </svg>
+);
+
+export const IconCleft = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M3 12c3-3.5 6-5 9-5s6 1.5 9 5c-3 3.5-6 5-9 5s-6-1.5-9-5Z" />
+    <path d="M12 7v10" />
+  </svg>
+);
+
+export const IconTrauma = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3Z" />
+    <path d="m13 8-3 4h4l-3 4" />
+  </svg>
+);
+
+export const IconCyst = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <circle cx="12" cy="12" r="8.5" />
+    <circle cx="10" cy="10.5" r="2.5" />
+    <circle cx="15" cy="15" r="1.6" />
+  </svg>
+);
+
+export const IconImplant = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M8 5h8l-1.5 3h-5L8 5Z" />
+    <path d="M12 8v11" />
+    <path d="M9.5 11h5M9.5 14h5M10.5 17h3" />
+  </svg>
+);
