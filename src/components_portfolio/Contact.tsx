@@ -1,16 +1,39 @@
 import { useState, type FormEvent } from "react";
 import { CONTACT } from "../data/content";
+import { sendConsultationRequest } from "../lib/contact.functions";
 import { IconArrow, IconLinkedIn, IconMail, IconPhone, IconPin } from "./Icons";
 
 export default function Contact() {
   const [status, setStatus] = useState<string | null>(null);
+  const [isSending, setIsSending] = useState(false);
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus(
-      "Thank you. Your message has been noted — Dr. Monika's team will respond within 48 hours."
-    );
-    (e.target as HTMLFormElement).reset();
+    const form = e.currentTarget;
+    const fields = new FormData(form);
+    setIsSending(true);
+    setStatus(null);
+
+    try {
+      await sendConsultationRequest({
+        data: {
+          name: String(fields.get("name") ?? ""),
+          email: String(fields.get("email") ?? ""),
+          phone: String(fields.get("phone") ?? ""),
+          message: String(fields.get("message") ?? ""),
+        },
+      });
+      setStatus(
+        "Thank you. Your message has been sent — Dr. Monika's team will respond within 48 hours."
+      );
+      form.reset();
+    } catch {
+      setStatus(
+        "Your message could not be sent. Please email drmonikasinghsoni@gmail.com directly."
+      );
+    } finally {
+      setIsSending(false);
+    }
   }
 
   return (
@@ -111,8 +134,8 @@ export default function Contact() {
                 placeholder="Tell us briefly about the concern or reason for your visit."
               />
             </div>
-            <button className="btn btn-primary" type="submit">
-              Send message <IconArrow width={16} height={16} />
+            <button className="btn btn-primary" type="submit" disabled={isSending}>
+              {isSending ? "Sending…" : "Send message"} <IconArrow width={16} height={16} />
             </button>
             {status && <div className="form-status">{status}</div>}
           </form>

@@ -316,7 +316,7 @@ export const CONTACT = {
   clinic3: "TBS — The Bombay Surgeons",
   address3:
     "4th Floor, AWS 3, 412, B-wing, Drive In Rd, opp. Indian Oil Petrol Pump, Memnagar, Ahmedabad, Gujarat 380054",
-  email: "monikasingh2121@gmail.com",
+  email: "drmonikasinghsoni@gmail.com",
   phone: "+91 74061 92177",
   phoneRaw: "+917406192177",
   linkedin: "https://www.linkedin.com/in/dr-monika-singh-52b21919b/",
